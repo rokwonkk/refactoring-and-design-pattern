@@ -28,7 +28,10 @@ public class Text {
             }
         }
 
-        if (checkStr) return Integer.parseInt(trimContent);
-        else return null;
+        if (checkStr) {
+            return Integer.parseInt(trimContent);
+        } else {
+            return null;
+        }
     }
 }
